@@ -90,7 +90,7 @@ int main()
                     
                     break;
                 case 5:
-                   /* DATE date;
+                   DATE date;
                     date.jour = saisirInt(1, 31, "entrez le jour");
                     puts("------------------------------------");
                     date.mois = saisirInt(1, 12, "entrez le mois");
@@ -99,10 +99,10 @@ int main()
                     listerEtudiantsParDate(Users, Presences, nbUsers, nbPresences, date);
                     puts("------------------------------------");
                     
-                    */
+                    
                     break;
                 case 6:
-                   // genererFpresence();
+                    genererFpresence();
                     
                     break;
 
