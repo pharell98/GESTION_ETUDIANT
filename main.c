@@ -65,7 +65,7 @@ int main()
                 switch (choix)
                 {
                 case 1:
-                /*
+                
                     getchar();
                     while (1)
                     {
@@ -87,7 +87,7 @@ int main()
                             marquerPresenceAdmin(Users, Presences, matricule1, password1);
                         }
                     }
-                    */
+                    
                     break;
                 case 5:
                    /* DATE date;
