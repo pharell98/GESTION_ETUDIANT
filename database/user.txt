@@ -1,0 +1,11 @@
+1|developpement|sow|bobo|12|05|1998|ET-S-BO-Pi-12051998|24|rufisque|Homme|passer
+1|reference digital|sarr|fatim|01|01|2000|ET-S-FA-01012000|22|dakar|Femme|passer1
+1|developpement|ka|bailo|12|05|1998|ET-K-BA-12051998|24|rufisque|Homme|passer2
+1|data|fall|matar|15|08|1985|ET-F-MA-15081985|37|hlm|Homme|passer3
+1|developpement|ndiaye|ngone|12|05|1998|ET-N-NG-12051990|24|rufisque|Homme|passer4
+1|developpement|sow|souaybou|12|05|1998|ET-S-SO-Pi-12051998|24|rufisque|Homme|passer
+1|reference digital|dacosta|aly|01|01|2000|ET-D-DA-01012000|22|dakar|Femme|passer1
+1|developpement|olousokpe|nouratou|12|05|1998|ET-O-NO-12051998|24|rufisque|Homme|passer2
+1|data|diallo|hamidou|15|08|1985|ET-D-HA-15081985|37|hlm|Homme|passer3
+1|developpement|gassama|zizou|12|05|1998|ET-G-ZI-12051990|24|rufisque|Homme|passer4
+2| |wane|demba|12|05|1998|ET-W-DE-12051990|56|rufisque|Homme|passer5
