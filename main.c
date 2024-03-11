@@ -26,11 +26,6 @@ int main()
         char matriculeDestinataire[50];
         char objet[100];
         char message[1000];
-        /*
-         saisiChaine(matriculeDestinataire, sizeof(matriculeDestinataire), "Entrez le matricule de l'étudiant : ");
-        saisiChaine(objet, sizeof(objet), "Saisir Objet");
-        saisiChaine(message, sizeof(message), "Saisir Message");
-        */
 
         USER *Users = lireUsers("database/user.txt", &nbUsers);
         PRESENCE *Presences = lirePresence("database/presenceP.txt", &nbPresences);
@@ -65,7 +60,7 @@ int main()
                 switch (choix)
                 {
                 case 1:
-                
+
                     getchar();
                     while (1)
                     {
@@ -87,10 +82,10 @@ int main()
                             marquerPresenceAdmin(Users, Presences, matricule1, password1);
                         }
                     }
-                    
+
                     break;
                 case 5:
-                   DATE date;
+                    DATE date;
                     date.jour = saisirInt(1, 31, "entrez le jour");
                     puts("------------------------------------");
                     date.mois = saisirInt(1, 12, "entrez le mois");
@@ -98,12 +93,35 @@ int main()
                     date.annee = saisirInt(1, 2024, "entrez l'année");
                     listerEtudiantsParDate(Users, Presences, nbUsers, nbPresences, date);
                     puts("------------------------------------");
-                    
-                    
+
                     break;
                 case 6:
                     genererFpresence();
-                    
+
+                    break;
+                case 7:
+                    choix = menuMessage();
+                    saisiChaine(matriculeDestinataire, sizeof(matriculeDestinataire), "Entrez le matricule de l'étudiant : ");
+                    saisiChaine(objet, sizeof(objet), "Saisir Objet");
+                    saisiChaine(message, sizeof(message), "Saisir Message");
+                    switch (choix)
+                    {
+                    case 1:
+                        envoyerMessage(Users, matriculeDestinataire, objet, message);
+                        break;
+                    case 2:
+                        printf("Message pour toute l'ecole\n");
+                        break;
+                    case 3:
+                        printf("Message pour une classe\n");
+                        break;
+                    case 4:
+                        printf("Message pour des etudiants choisis\n");
+                        break;
+
+                    default:
+                        break;
+                    }
                     break;
 
                 default:

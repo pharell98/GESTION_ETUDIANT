@@ -40,6 +40,7 @@ void listerEtudiantsParDate(USER *etudiants, PRESENCE *presence, int nbEtudiants
 /*MENU ETUDIANT ET ADMIN*/
 int menuEtudiant();
 int menuAdmin();
+int menuMessage();
 
 
 /*FONCTION ENVOI MESSAGE*/
